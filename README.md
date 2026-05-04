@@ -4,4 +4,4 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
 
 ## Most Used Languages
 
-![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=SiIverAsh&layout=donut&theme=tokyonight&langs_count=8&hide=Jupyter%20Notebook)
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=SiIverAsh&layout=donut&theme=tokyonight&langs_count=8)
