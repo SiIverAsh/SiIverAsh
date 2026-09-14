@@ -5,9 +5,9 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
 
 <h2>Languages</h2>
 
-<picture>
+<p align="center">
   <img src="./metrics.languages.svg"
        alt="Languages metrics"
        width="80%">
-</picture>
+</p>
 
