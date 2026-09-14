@@ -8,6 +8,6 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
 <picture>
   <img src="./metrics.languages.svg"
        alt="Languages metrics"
-       width="100%">
+       width="60%">
 </picture>
 
