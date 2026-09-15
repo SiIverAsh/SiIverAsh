@@ -8,6 +8,18 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
 <p align="center">
   <img src="./metrics.languages.svg"
        alt="Languages metrics"
-       width="80%">
+       width="75%">
 </p>
 
+
+## 💻 Working environment
+
+![Windows 11](https://img.shields.io/badge/Windows%2011-0078D4?style=flat-square&logo=windows11&logoColor=white)
+![Ubuntu 24.04 LTS](https://img.shields.io/badge/Ubuntu%2024.04%20LTS-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+
+## 😀 My favorite things
+![Google](https://img.shields.io/badge/%20-Google-20232A?style=flat-square&logo=google&logoColor=white&labelColor=4285F4)
+![DeepSeek](https://img.shields.io/badge/%20-DeepSeek-20232A?style=flat-square&logo=deepseek&logoColor=white&labelColor=4D6BFE)
+![Reddit](https://img.shields.io/badge/%20-Reddit-20232A?style=flat-square&logo=reddit&logoColor=white&labelColor=FF4500)
+![GitHub](https://img.shields.io/badge/%20-GitHub-20232A?style=flat-square&logo=github&logoColor=white&labelColor=181717)
+![Linux](https://img.shields.io/badge/%20-Linux-20232A?style=flat-square&logo=linux&logoColor=black&labelColor=FCC624)
