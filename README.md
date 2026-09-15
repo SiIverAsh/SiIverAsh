@@ -21,6 +21,26 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
   />
 </p>
 
+
+## 🌸 Anime
+
+<p align="center">
+  <img
+    src="./metrics.anilist.svg"
+    width="48%"
+    alt="AniList Favorite Characters"
+    align="middle"
+  />
+  <a href="https://bgm.tv/user/925751">
+    <img
+      src="./bangumi.svg"
+      alt="Bangumi Stats"
+      width="48%"
+      align="middle"
+    />
+  </a>
+</p>
+
 ## 💻 Working environment
 
 ![Windows 11](https://img.shields.io/badge/Windows%2011-0078D4?style=flat-square&logo=windows11&logoColor=white)
@@ -33,12 +53,3 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
 ![GitHub](https://img.shields.io/badge/%20-GitHub-20232A?style=flat-square&logo=github&logoColor=white&labelColor=181717)
 ![Linux](https://img.shields.io/badge/%20-Linux-20232A?style=flat-square&logo=linux&logoColor=black&labelColor=FCC624)
 
-## 🌸 Favorite Characters
-
-<p align="left">
-  <img
-    src="./metrics.anilist.svg"
-    width="50%"
-    alt="AniList Favorite Characters"
-  />
-</p>

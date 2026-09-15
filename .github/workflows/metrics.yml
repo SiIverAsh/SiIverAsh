@@ -41,6 +41,8 @@ jobs:
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 0
 
+          commits_authoring: SiIverAsh, ${{ secrets.COMMIT_EMAIL }}
+          
           
       - name: AniList favorite characters
         uses: lowlighter/metrics@latest
@@ -58,4 +60,4 @@ jobs:
           plugin_anilist_shuffle: no
           
 
-          commits_authoring: SiIverAsh, ${{ secrets.COMMIT_EMAIL }}
+          
