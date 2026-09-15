@@ -1,0 +1,132 @@
+name: Jupyter Python Lines
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  count-jupyter-lines:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Clone owned repositories
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          PROFILE_OWNER: SiIverAsh
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          WORK_DIR="$(mktemp -d)"
+          REPOS_DIR="$WORK_DIR/repos"
+          mkdir -p "$REPOS_DIR"
+
+          gh repo list "$PROFILE_OWNER" \
+            --limit 1000 \
+            --json nameWithOwner \
+            --jq '.[].nameWithOwner' > "$WORK_DIR/repos.txt"
+
+          while IFS= read -r REPO; do
+            [ -z "$REPO" ] && continue
+
+            TARGET="$REPOS_DIR/${REPO//\//__}"
+            echo "Scanning $REPO"
+
+            if ! gh repo clone "$REPO" "$TARGET" -- --depth=1 --quiet; then
+              echo "::warning::Unable to clone $REPO"
+            fi
+          done < "$WORK_DIR/repos.txt"
+
+          echo "REPOS_DIR=$REPOS_DIR" >> "$GITHUB_ENV"
+
+      - name: Count Python lines in notebooks
+        shell: bash
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          repositories = Path(os.environ["REPOS_DIR"])
+          output = Path(os.environ["GITHUB_WORKSPACE"]) / "jupyter-python-lines.json"
+
+          total_lines = 0
+          notebook_count = 0
+
+          for notebook in repositories.rglob("*.ipynb"):
+              if ".ipynb_checkpoints" in notebook.parts:
+                  continue
+
+              try:
+                  data = json.loads(notebook.read_text(encoding="utf-8"))
+
+                  metadata = data.get("metadata", {})
+                  language = (
+                      metadata.get("language_info", {}).get("name")
+                      or metadata.get("kernelspec", {}).get("language")
+                      or ""
+                  ).lower()
+
+                  # 跳过明确标记为 R、Julia 等语言的 notebook。
+                  # 缺少语言元数据的 notebook 默认按 Python 处理。
+                  if language and not language.startswith("python"):
+                      continue
+
+                  notebook_count += 1
+
+                  for cell in data.get("cells", []):
+                      if cell.get("cell_type") != "code":
+                          continue
+
+                      source = cell.get("source", "")
+                      text = "".join(source) if isinstance(source, list) else str(source)
+
+                      # 统计非空代码行
+                      total_lines += sum(
+                          1 for line in text.splitlines()
+                          if line.strip()
+                      )
+
+              except Exception as error:
+                  print(f"Skipping {notebook}: {error}")
+
+          badge = {
+              "schemaVersion": 1,
+              "label": "Jupyter Python",
+              "message": f"{total_lines:,} lines · {notebook_count} notebooks",
+              "color": "F37626",
+              "namedLogo": "jupyter",
+              "logoColor": "white",
+              "cacheSeconds": 21600
+          }
+
+          output.write_text(
+              json.dumps(badge, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+
+          print(f"Python code-cell lines: {total_lines}")
+          print(f"Python notebooks: {notebook_count}")
+          PY
+
+      - name: Commit statistics
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add jupyter-python-lines.json
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update Jupyter Python line count"
+            git push
+          fi
