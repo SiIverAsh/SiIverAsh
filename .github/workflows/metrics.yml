@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Languages metrics
-        uses: lowlighter/metrics@latest
+        uses: SiIverAsh/metrics@master
         with:
           filename: metrics.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
