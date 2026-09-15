@@ -37,7 +37,7 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
 
 <p align="left">
   <img
-    src="./metrics.anilist.characters.svg"
+    src="./metrics.anilist.svg"
     width="50%"
     alt="AniList Favorite Characters"
   />
