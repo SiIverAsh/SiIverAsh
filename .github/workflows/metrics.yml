@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 编程语言分析
       - name: Languages metrics
         uses: lowlighter/metrics@latest
         with:
@@ -33,5 +32,4 @@ jobs:
           plugin_languages_categories: programming, markup
           plugin_languages_recent_categories: programming, markup
 
-          # 换成你提交代码时使用的名字和邮箱
           commits_authoring: SiIverAsh, z1379523665@gmail.com
