@@ -32,3 +32,13 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
 ![Reddit](https://img.shields.io/badge/%20-Reddit-20232A?style=flat-square&logo=reddit&logoColor=white&labelColor=FF4500)
 ![GitHub](https://img.shields.io/badge/%20-GitHub-20232A?style=flat-square&logo=github&logoColor=white&labelColor=181717)
 ![Linux](https://img.shields.io/badge/%20-Linux-20232A?style=flat-square&logo=linux&logoColor=black&labelColor=FCC624)
+
+## 🌸 Favorite Characters
+
+<p align="left">
+  <img
+    src="./metrics.anilist.characters.svg"
+    width="50%"
+    alt="AniList Favorite Characters"
+  />
+</p>
