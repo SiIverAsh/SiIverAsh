@@ -33,7 +33,7 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
     align="middle"
   />
 <img
-  src="https://github-readme-stats.vercel.app/api/wakatime?username=SiIverAsh&layout=compact&langs_count=10&display_format=time&theme=transparent&hide_border=true&custom_title=WakaTime%20Stats"
+  src="./metrics.wakatime.svg"
   alt="WakaTime Stats"
   width="48%"
   align="middle"
