@@ -75,10 +75,10 @@ jobs:
           plugin_wakatime_sections: time, languages, languages-graphs
           plugin_wakatime_limit: 5
           plugin_wakatime_languages_other: yes
-          plugin_wakatime_repositories_visibility: public
+          plugin_wakatime_repositories_visibility: all
 
       - name: Coding habits
-        uses: lowlighter/metrics@latest
+        uses: SiIverAsh/metrics@master
         with:
           filename: metrics.habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
