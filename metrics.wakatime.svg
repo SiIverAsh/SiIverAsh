@@ -42,14 +42,17 @@
                         <h3>Languages</h3>
                         <div style="display:flex;align-items:center;justify-content:center;width:100%;min-height:180px;margin:4px 0 8px">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="190" height="180" style="flex-shrink:0">
-                                <path d="M 90 90 L 90.000 20.000 A 70 70 0 0 1 153.060 120.389 Z" fill="#083fa1" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 153.060 120.389 A 70 70 0 0 1 51.144 148.226 Z" fill="#8b949e" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 51.144 148.226 A 70 70 0 0 1 33.869 48.176 Z" fill="#3572A5" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 33.869 48.176 A 70 70 0 0 1 62.476 25.638 Z" fill="#3178c6" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 62.476 25.638 A 70 70 0 0 1 90.000 20.000 Z" fill="#292929" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <text x="125.56546372859978" y="67.65950336788251" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Markdown</text>
-                                <text x="101.06628196084503" y="130.51589075366695" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Other</text>
-                                <text x="48.612451928069255" y="97.14638822018661" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Python</text>
+                                <path d="M 90 90 L 90.000 20.000 A 70 70 0 0 1 157.279 109.328 Z" fill="#083fa1" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 157.279 109.328 A 70 70 0 0 1 70.940 157.355 Z" fill="#8b949e" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 70.940 157.355 A 70 70 0 0 1 21.281 76.667 Z" fill="#3572A5" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 21.281 76.667 A 70 70 0 0 1 35.300 46.321 Z" fill="#3178c6" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 35.300 46.321 A 70 70 0 0 1 54.811 29.488 Z" fill="#292929" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 54.811 29.488 A 70 70 0 0 1 74.586 21.718 Z" fill="#f1e05a" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 74.586 21.718 A 70 70 0 0 1 87.952 20.030 Z" fill="#237346" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 87.952 20.030 A 70 70 0 0 1 90.000 20.000 Z" fill="#8b949e" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <text x="123.5488988063768" y="64.7320086101113" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Markdown</text>
+                                <text x="110.41696116463449" y="126.70351068769591" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Other</text>
+                                <text x="54.2312336962579" y="112.01352668493361" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Python</text>
                             </svg>
                             <div style="display:flex;flex:1;flex-direction:column;min-width:0;margin-left:10px">
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
@@ -71,6 +74,18 @@
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#292929"></span>
                                     <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">JSON - 2h 6m (5.82%)</span>
+                                </div>
+                                <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
+                                    <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#f1e05a"></span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">JavaScript - 1h 44m (4.79%)</span>
+                                </div>
+                                <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
+                                    <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#237346"></span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">CSV - 1h 6m (3.03%)</span>
+                                </div>
+                                <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
+                                    <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#8b949e"></span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">TSConfig - 10m (0.46%)</span>
                                 </div>
                             </div>
                         </div>
