@@ -14,7 +14,7 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
     align="middle"
   />
   <img
-    src="https://github-stats-extended.vercel.app/api?username=SiIverAsh&commit_years=2026&show=contributions&show_icons=true&hide_border=true&bg_color=0D1117&title_color=67D8EF&text_color=FFFFFF&icon_color=67E8F9&ring_color=38BDF8"
+    src="https://github-stats-extended.vercel.app/api?username=SiIverAsh&commit_years=2026show=contributions&show_icons=true&hide_border=true&bg_color=00000000&title_color=67D8EF&text_color=FFFFFF&icon_color=67E8F9&ring_color=38BDF8"
     alt="GitHub Stats"
     width="46%"
     align="middle"
