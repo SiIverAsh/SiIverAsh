@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
-    branches: ["main", "master"]
+    branches: ["main"]
 
 permissions:
   contents: write
@@ -32,6 +32,7 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: lines, bytes-size, percentage
           plugin_languages_categories: programming, markup, data, prose
+          plugin_languages_ignored: SVG
           plugin_languages_aliases: "Jupyter Notebook:Python"
           plugin_languages_colors: "Python:#3572A5"
           
@@ -61,4 +62,32 @@ jobs:
           plugin_anilist_shuffle: no
           
 
-          
+      - name: WakaTime metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.wakatime.svg
+          token: NOT_NEEDED
+          base: ""
+
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME }}
+
+          plugin_wakatime_days: 30
+          plugin_wakatime_sections: time, languages, languages-graphs
+          plugin_wakatime_limit: 5
+          plugin_wakatime_languages_other: yes
+          plugin_wakatime_repositories_visibility: public
+
+      - name: Coding habits
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          config_timezone: Asia/Shanghai
+          plugin_habits: yes
+          plugin_habits_from: 500
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph

@@ -22,6 +22,24 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
 </p>
 
 
+
+## ⏱️ Development Activity
+
+<p align="center">
+  <img
+    src="./metrics.habits.svg"
+    alt="Coding Habits"
+    width="48%"
+    align="middle"
+  />
+  <img
+    src="./metrics.wakatime.svg"
+    alt="WakaTime Development Activity"
+    width="48%"
+    align="middle"
+  />
+</p>
+
 ## 🌸 Anime
 
 <p align="center">
@@ -40,6 +58,25 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
     />
   </a>
 </p>
+
+
+## 🎵 Music
+
+<p align="center">
+  <img
+    src="https://netease-music-widget.vercel.app/api?id=623550269&type=week&count=8&theme=dark&show_rank=true"
+    alt="Weekly Top Songs"
+    width="45%"
+    align="middle"
+  />
+  <img
+    src="https://netease-music-widget.vercel.app/api?id=623550269&type=all&count=8&theme=dark&show_rank=true"
+    alt="All-time Top Songs"
+    width="45%"
+    align="middle"
+  />
+</p>
+
 
 ## 💻 Working environment
 
