@@ -32,12 +32,12 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
     width="48%"
     align="middle"
   />
-  <img
-    src="./metrics.wakatime.svg"
-    alt="WakaTime Development Activity"
-    width="48%"
-    align="middle"
-  />
+<img
+  src="https://github-readme-stats.vercel.app/api/wakatime?username=SiIverAsh&layout=compact&langs_count=10&display_format=time&theme=transparent&hide_border=true&custom_title=WakaTime%20Stats"
+  alt="WakaTime Stats"
+  width="48%"
+  align="middle"
+/>
 </p>
 
 ## 🌸 Anime

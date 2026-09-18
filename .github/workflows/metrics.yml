@@ -62,7 +62,7 @@ jobs:
           
 
       - name: WakaTime metrics
-        uses: lowlighter/metrics@latest
+        uses: SiIverAsh/metrics@master
         with:
           filename: metrics.wakatime.svg
           token: NOT_NEEDED
