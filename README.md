@@ -64,13 +64,13 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
 
 <p align="center">
   <img
-    src="https://netease-music-widget.vercel.app/api?id=623550269&type=week&count=8&theme=dark&show_rank=true"
+    src="./music.week.svg"
     alt="Weekly Top Songs"
     width="45%"
     align="middle"
   />
   <img
-    src="https://netease-music-widget.vercel.app/api?id=623550269&type=all&count=8&theme=dark&show_rank=true"
+    src="./music.all.svg"
     alt="All-time Top Songs"
     width="45%"
     align="middle"
