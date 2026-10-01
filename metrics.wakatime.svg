@@ -19,7 +19,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"/>
                             </svg>
-                            ~82 coding hours recorded
+                            ~81 coding hours recorded
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -60,50 +60,50 @@
                         <h3>Languages</h3>
                         <div style="display:flex;align-items:center;justify-content:center;width:100%;min-height:180px;margin:4px 0 8px">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="190" height="180" style="flex-shrink:0">
-                                <path d="M 90 90 L 90.000 20.000 A 70 70 0 0 1 145.891 132.144 Z" fill="#083fa1" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 145.891 132.144 A 70 70 0 0 1 31.845 128.962 Z" fill="#3572A5" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 31.845 128.962 A 70 70 0 0 1 38.384 42.716 Z" fill="#8b949e" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 38.384 42.716 A 70 70 0 0 1 54.438 29.706 Z" fill="#3178c6" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 54.438 29.706 A 70 70 0 0 1 66.622 24.019 Z" fill="#292929" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 66.622 24.019 A 70 70 0 0 1 75.824 21.450 Z" fill="#f1e05a" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 75.824 21.450 A 70 70 0 0 1 83.188 20.332 Z" fill="#cb171e" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 83.188 20.332 A 70 70 0 0 1 90.000 20.000 Z" fill="#237346" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <text x="127.59014699871267" y="71.26551712442607" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Markdown</text>
-                                <text x="88.82854757766148" y="131.9836599074235" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Python</text>
-                                <text x="48.12018795238395" y="86.82488695376784" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Other</text>
+                                <path d="M 90 90 L 90.000 20.000 A 70 70 0 0 1 148.854 127.897 Z" fill="#083fa1" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 148.854 127.897 A 70 70 0 0 1 32.339 129.689 Z" fill="#3572A5" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 32.339 129.689 A 70 70 0 0 1 38.656 42.421 Z" fill="#8b949e" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 38.656 42.421 A 70 70 0 0 1 53.960 29.991 Z" fill="#3178c6" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 53.960 29.991 A 70 70 0 0 1 66.300 24.134 Z" fill="#292929" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 66.300 24.134 A 70 70 0 0 1 75.614 21.494 Z" fill="#f1e05a" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 75.614 21.494 A 70 70 0 0 1 83.103 20.341 Z" fill="#cb171e" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 83.103 20.341 A 70 70 0 0 1 90.000 20.000 Z" fill="#237346" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <text x="126.87145500366967" y="69.88791890647903" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Markdown</text>
+                                <text x="90.6459154632278" y="131.99503295884364" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Python</text>
+                                <text x="48.109579167941234" y="86.96806291077523" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Other</text>
                             </svg>
                             <div style="display:flex;flex:1;flex-direction:column;min-width:0;margin-left:10px">
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#083fa1"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Markdown - 28h 7m (34.57%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Markdown - 26h 47m (33.44%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#3572A5"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Python - 24h 10m (29.71%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Python - 24h 34m (30.69%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#8b949e"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Other - 16h 53m (20.77%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Other - 16h 52m (21.07%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#3178c6"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">TypeScript - 3h 45m (4.62%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">TypeScript - 3h 31m (4.41%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#292929"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">JSON - 2h 26m (3.00%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">JSON - 2h 26m (3.05%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#f1e05a"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">JavaScript - 1h 43m (2.13%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">JavaScript - 1h 43m (2.16%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#cb171e"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">YAML - 1h 21m (1.66%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">YAML - 1h 21m (1.69%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#237346"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">CSV - 1h 14m (1.52%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">CSV - 1h 14m (1.54%)</span>
                                 </div>
                             </div>
                         </div>
