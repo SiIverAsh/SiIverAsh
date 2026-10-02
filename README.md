@@ -82,6 +82,8 @@ I am a Master’s student majoring in Software Engineering. I am deeply passiona
 
 ![Windows 11](https://img.shields.io/badge/Windows%2011-0078D4?style=flat-square&logo=windows11&logoColor=white)
 ![Ubuntu 24.04 LTS](https://img.shields.io/badge/Ubuntu%2024.04%20LTS-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![macOS 26.6](https://img.shields.io/badge/macOS%2026.6-000000?style=flat-square&logo=apple&logoColor=white)
+
 
 ## 😀 My favorite things
 ![Google](https://img.shields.io/badge/%20-Google-20232A?style=flat-square&logo=google&logoColor=white&labelColor=4285F4)
