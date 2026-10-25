@@ -1,6 +1,6 @@
 ## Hi👋, I'm SiIverAsh
 
-I am a Master’s student majoring in Software Engineering. I am deeply passionate about AI, networking, software development, reverse engineering, game development, and embedded systems. I am currently dedicated to exploring these fields and expanding my technical toolkit.
+I'm a master's student in Software Engineering. My interests range from AI and networking to reverse engineering, game development, and embedded systems. Beyond code, I enjoy anime and music.
 
 [![GitHub Roast 评分徽章](https://ghfind.com/api/badge/siiverash)](https://ghfind.com/u/siiverash?ref=badge)
 
