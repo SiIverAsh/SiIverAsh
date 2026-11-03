@@ -19,7 +19,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"/>
                             </svg>
-                            ~94 coding hours recorded
+                            ~95 coding hours recorded
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -39,7 +39,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M6 2a.75.75 0 01.696.471L10 10.731l1.304-3.26A.75.75 0 0112 7h3.25a.75.75 0 010 1.5h-2.742l-1.812 4.528a.75.75 0 01-1.392 0L6 4.77 4.696 8.03A.75.75 0 014 8.5H.75a.75.75 0 010-1.5h2.742l1.812-4.529A.75.75 0 016 2z"/>
                             </svg>
-                            ~5 hours of coding per day
+                            ~4 hours of coding per day
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -60,50 +60,50 @@
                         <h3>Languages</h3>
                         <div style="display:flex;align-items:center;justify-content:center;width:100%;min-height:180px;margin:4px 0 8px">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="190" height="180" style="flex-shrink:0">
-                                <path d="M 90 90 L 90.000 20.000 A 70 70 0 0 1 159.182 100.670 Z" fill="#3D6117" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 159.182 100.670 A 70 70 0 0 1 78.125 158.985 Z" fill="#3178c6" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 78.125 158.985 A 70 70 0 0 1 24.006 113.342 Z" fill="#8b949e" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 24.006 113.342 A 70 70 0 0 1 23.316 68.711 Z" fill="#3572A5" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 23.316 68.711 A 70 70 0 0 1 38.314 42.792 Z" fill="#00ADD8" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 38.314 42.792 A 70 70 0 0 1 61.840 25.914 Z" fill="#083fa1" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 61.840 25.914 A 70 70 0 0 1 76.267 21.360 Z" fill="#292929" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <path d="M 90 90 L 76.267 21.360 A 70 70 0 0 1 90.000 20.000 Z" fill="#dea584" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
-                                <text x="121.88177778249435" y="62.658598327304986" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">TeX</text>
-                                <text x="114.52792139512599" y="124.09371015355356" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">TypeScript</text>
-                                <text x="62.921828424040136" y="122.10564785365465" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Other</text>
+                                <path d="M 90 90 L 90.000 20.000 A 70 70 0 0 1 159.343 99.568 Z" fill="#3D6117" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 159.343 99.568 A 70 70 0 0 1 77.916 158.949 Z" fill="#3178c6" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 77.916 158.949 A 70 70 0 0 1 24.176 113.815 Z" fill="#8b949e" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 24.176 113.815 A 70 70 0 0 1 23.047 69.573 Z" fill="#3572A5" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 23.047 69.573 A 70 70 0 0 1 37.532 43.663 Z" fill="#00ADD8" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 37.532 43.663 A 70 70 0 0 1 60.530 26.506 Z" fill="#083fa1" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 60.530 26.506 A 70 70 0 0 1 75.090 21.606 Z" fill="#dea584" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <path d="M 90 90 L 75.090 21.606 A 70 70 0 0 1 90.000 20.000 Z" fill="#292929" stroke="rgba(0,0,0,.65)" stroke-width="1"/>
+                                <text x="121.66315621597607" y="62.40571547507173" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">TeX</text>
+                                <text x="114.74734554864511" y="123.9347740274774" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">TypeScript</text>
+                                <text x="62.98880064525798" y="122.1620134540483" fill="#ffffff" font-size="11" text-anchor="middle" dominant-baseline="middle" style="paint-order:stroke;stroke:#000000;stroke-width:2px;stroke-opacity:.55">Other</text>
                             </svg>
                             <div style="display:flex;flex:1;flex-direction:column;min-width:0;margin-left:10px">
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#3D6117"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">TeX - 24h 24m (26.19%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">TeX - 24h 24m (25.94%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#3178c6"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">TypeScript - 22h 29m (24.13%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">TypeScript - 22h 58m (24.41%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#8b949e"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Other - 15h (16.11%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Other - 15h (15.95%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#3572A5"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Python - 9h 11m (9.86%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Python - 9h 11m (9.77%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#00ADD8"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Go - 6h 6m (6.55%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Go - 6h 6m (6.49%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#083fa1"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Markdown - 5h 54m (6.33%)</span>
-                                </div>
-                                <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
-                                    <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#292929"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">JSON - 3h 3m (3.29%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Markdown - 5h 54m (6.27%)</span>
                                 </div>
                                 <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
                                     <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#dea584"></span>
-                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Rust - 2h 47m (3.00%)</span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Rust - 3h 8m (3.34%)</span>
+                                </div>
+                                <div style="display:flex;align-items:center;min-width:0;line-height:18px;font-size:11px">
+                                    <span style="display:block;width:10px;height:10px;margin-right:7px;flex-shrink:0;background-color:#292929"></span>
+                                    <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">JSON - 3h 3m (3.26%)</span>
                                 </div>
                             </div>
                         </div>
