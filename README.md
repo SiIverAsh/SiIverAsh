@@ -13,12 +13,18 @@ I'm a master's student in Software Engineering. My interests range from AI and n
     width="50%"
     align="middle"
   />
-  <img
-    src="https://github-stats-extended.vercel.app/api?username=SiIverAsh&commit_years=2026&show=contributions&show_icons=true&hide_border=true&bg_color=0D1117&title_color=67D8EF&text_color=FFFFFF&icon_color=67E8F9&ring_color=38BDF8"
-    alt="GitHub Stats"
-    width="46%"
-    align="middle"
-  />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-stats-extended.vercel.app/api?username=SiIverAsh&commits_year=2026&show_icons=true&hide_border=true&bg_color=00000000&title_color=67D8EF&text_color=FFFFFF&icon_color=67E8F9&ring_color=38BDF8"
+    />
+    <img
+      src="https://github-stats-extended.vercel.app/api?username=SiIverAsh&commits_year=2026&show_icons=true&hide_border=true&bg_color=00000000&title_color=0969DA&text_color=1F2328&icon_color=0969DA&ring_color=0969DA"
+      alt="GitHub Stats"
+      width="46%"
+      align="middle"
+    />
+  </picture>
 </p>
 
 

@@ -64,6 +64,42 @@ def customize_title(data: bytes, title: str) -> bytes:
     return text.encode("utf-8")
 
 
+def make_background_transparent(data: bytes) -> bytes:
+    """Remove the card and row fills while keeping text legible in both themes."""
+    text = data.decode("utf-8")
+    text, card_count = re.subn(
+        r'(<rect x="0\.5" y="0\.5" width="459" height="655" rx="6") '
+        r'fill="#0d1117"',
+        r'\1 fill="none"',
+        text,
+        count=1,
+    )
+    text, row_count = re.subn(
+        r'(<rect x="-12" y="0" width="444" height="64" rx="6") '
+        r'fill="#161b22"',
+        r'\1 fill="none"',
+        text,
+    )
+    if card_count != 1 or row_count == 0:
+        raise ValueError("upstream SVG background layout changed")
+
+    theme_styles = '''
+  <style>
+    text[fill="#e6edf3"] { fill: #1f2328; }
+    text[fill="#8b949e"] { fill: #656d76; }
+    text[fill="#58a6ff"] { fill: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      text[fill="#e6edf3"] { fill: #e6edf3; }
+      text[fill="#8b949e"] { fill: #8b949e; }
+      text[fill="#58a6ff"] { fill: #58a6ff; }
+    }
+  </style>'''
+    text, root_count = re.subn(r'(<svg\b[^>]*>)', rf'\1{theme_styles}', text, count=1)
+    if root_count != 1:
+        raise ValueError("upstream SVG root element not found")
+    return text.encode("utf-8")
+
+
 def download_card(period: str) -> bytes:
     query = urlencode(
         {
@@ -88,7 +124,7 @@ def download_card(period: str) -> bytes:
                 data = response.read()
                 validate_svg(data, response.headers.get("Content-Type", ""))
                 title = "Last 7 Days" if period == "week" else "All Time"
-                return customize_title(data, title)
+                return make_background_transparent(customize_title(data, title))
         except (HTTPError, URLError, HTTPException, OSError, ValueError) as error:
             if attempt == RETRIES:
                 raise RuntimeError(
